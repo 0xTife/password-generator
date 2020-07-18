@@ -48,7 +48,7 @@ body {
 
 .inputBox #btn {
     cursor: pointer;
-    color: #0135369c;
+    color: #eee;
     background: #098e92;
     font-size: 18px;
     font-weight: 700;
@@ -56,5 +56,6 @@ body {
     padding: 10px 15px;
     border-radius: 8px;
     float: right;
-    box-shadow: -4px -4px 10px #0fb7bd, inset 4px 4px 10px rgba(0, 0, 0, 0.2), inset -4px -4px 10px #0fb7bd, 4px 4px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 3px 3px 10px #0fb7bd, inset -3px -3px 10px rgba(0, 0, 0, 0.5);
 }
+
