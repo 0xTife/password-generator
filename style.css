@@ -22,6 +22,8 @@ body {
 .inputBox h2 {
     font-size: 25px;
     color: #333;
+    margin: 20px 0;
+    font-weight: 600;
 }
 
 .inputBox input {
@@ -36,26 +38,28 @@ body {
     letter-spacing: 1px;
     box-sizing: border-box;
     border-radius: 8px;
-    color: #f4f4f4;
-    box-shadow: -4px -4px 10px #0fb7bd, inset 4px 4px 10px rgba(0, 0, 0, 0.2), inset -4px -4px 10px #0fb7bd, 4px 4px 10px rgba(0, 0, 0, 0.2);
+    font-weight: 600;
+    color: #333;
+    box-shadow: -4px -4px 10px #0fb7bd, inset 4px 4px 10px rgba(0, 0, 0, 0.1), inset -4px -4px 10px #0fb7bd, 4px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .inputBox input::placeholder {
     letter-spacing: 0px;
-    color: #000;
+    color: #333;
     opacity: 0.5;
 }
 
 .inputBox #btn {
     cursor: pointer;
-    color: #eee;
-    background: #098e92;
+    color: #333;
+    background: none;
     font-size: 18px;
     font-weight: 700;
+    outline: none;
+    border: none;
     display: inline-block;
     padding: 10px 15px;
     border-radius: 8px;
     float: right;
-    box-shadow: inset 3px 3px 10px #0fb7bd, inset -3px -3px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 3px 3px 10px #0ca5aa, inset -3px -3px 5px rgba(0, 0, 0, 0.1), 3px 3px 10px #0ca5aa, inset -3px -3px 5px rgba(0, 0, 0, 0.1);
 }
-
